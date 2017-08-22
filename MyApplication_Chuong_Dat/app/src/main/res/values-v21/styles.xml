@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style songName="MyTheme" parent="Base.MyTheme">
+        <item songName="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style songName="MyTheme.Detail" parent="MyTheme">
+        <item songName="android:statusBarColor">@android:color/transparent</item>
+    </style>
+
+    <style songName="MySpinnerStyle" parent="Widget.AppCompat.Light.Spinner.DropDown.ActionBar">
+        <item songName="android:background">?android:selectableItemBackground</item>
+        <item songName="android:dropDownSelector">?android:selectableItemBackground</item>
+        <item songName="android:divider">@null</item>
+        <item songName="android:overlapAnchor">true</item>
+    </style>
+
+</resources>

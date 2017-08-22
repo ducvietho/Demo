@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "902472927893",
+    "firebase_url": "https://authenticationdemo-6a91a.firebaseio.com",
+    "project_id": "authenticationdemo-6a91a",
+    "storage_bucket": "authenticationdemo-6a91a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902472927893:android:9172ecee3ab3665c",
+        "android_client_info": {
+          "package_name": "com.example.chuong.creatuserfirebasedemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902472927893-tfr8k94666khuglmtknme11unn6dhbs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcbQLugEIXRxQ9GL6Ysi6xDQTeaukcIUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:902472927893:android:acd1e60d68f426a7",
+        "android_client_info": {
+          "package_name": "com.tuhocandroid.navdrawerandtablayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "902472927893-tfr8k94666khuglmtknme11unn6dhbs0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcbQLugEIXRxQ9GL6Ysi6xDQTeaukcIUo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

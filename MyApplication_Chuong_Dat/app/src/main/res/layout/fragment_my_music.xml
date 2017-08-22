@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/zing"/>
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/default_avatar"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingTop="20dp"
+                android:paddingLeft="100dp"
+                android:id="@+id/music"
+                android:text="My Music"
+                android:textColor="@android:color/white"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_below="@+id/music"
+                android:paddingLeft="100dp"
+                android:id="@+id/tv_count"
+                android:textColor="@android:color/white"/>
+
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:paddingTop="5dp"
+            android:text="Nhạc Offline"
+            android:paddingLeft="8dp"
+            android:textColor="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5D0C7B"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewList"
+            android:layout_width="match_parent"
+            android:layout_height="210dp">
+        </android.support.v7.widget.RecyclerView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:paddingTop="5dp"
+            android:text="Nhạc Online"
+            android:paddingLeft="8dp"
+            android:textColor="@android:color/darker_gray"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#5D0C7B"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerOnline"
+            android:layout_width="match_parent"
+            android:layout_height="150dp">
+        </android.support.v7.widget.RecyclerView>
+    </LinearLayout>
+
+
+
+</ScrollView>

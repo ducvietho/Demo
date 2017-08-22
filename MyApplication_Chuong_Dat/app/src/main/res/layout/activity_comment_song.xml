@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_comment_song"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuhocandroid.navdrawerandtablayout.Activity.CommentSong">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:id="@+id/textviewSongName"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="30dp"
+        android:text="Unknow"
+        android:background="@android:color/holo_orange_light"
+        />
+    <View
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/textviewSongName"
+        android:background="@android:color/darker_gray"
+        android:id="@+id/viewLine"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/viewLine"
+        android:layout_above="@+id/boxSendMessage"
+        >
+        <android.support.v7.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/recycle_comment"
+
+            ></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+        <LinearLayout
+            android:id="@id/boxSendMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/messageEditText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/sendButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:enabled="false"
+                android:text="SEND"/>
+
+        </LinearLayout>
+
+</RelativeLayout>

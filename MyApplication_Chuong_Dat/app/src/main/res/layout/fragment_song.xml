@@ -1,0 +1,34 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="info.androidhive.materialtabs.fragments.TwoFragment"
+    android:orientation="vertical">
+
+  <Button
+      android:layout_width="match_parent"
+      android:layout_height="60dp"
+      android:text="   Phát ngẫu nhiên"
+      android:layout_marginTop="3dp"
+      android:layout_marginLeft="5dp"
+      android:layout_marginRight="5dp"
+      android:drawableLeft="@drawable/random"
+      android:background="@android:color/white"
+      android:gravity="center_vertical"
+      android:onClick="OnClick"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+    <android.support.v7.widget.RecyclerView
+    android:id="@+id/recyclesong"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.v7.widget.RecyclerView>
+
+
+</LinearLayout>

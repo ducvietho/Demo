@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_singer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.tuhocandroid.navdrawerandtablayout.Activity.SingerActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:id="@+id/infoRelaytive">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageViewSinger"
+            android:layout_centerHorizontal="true"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageViewSinger"
+            android:layout_centerHorizontal="true"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textSize="30dp"
+            android:id="@+id/textviewSingerName"/>
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/textviewSingerName"
+            android:layout_marginTop="3dp"
+            android:layout_marginBottom="3dp"
+            android:background="@android:color/darker_gray"
+            />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_below="@id/infoRelaytive"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@id/infoRelaytive"
+                android:scrollbarAlwaysDrawVerticalTrack="true"
+                android:id="@+id/textViewInfoSinger"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

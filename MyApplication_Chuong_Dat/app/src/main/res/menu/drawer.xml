@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/navigation_item_LogIn"
+            android:icon="@drawable/ic_signin"
+            android:title="Đăng nhập"/>
+        <item
+            android:id="@+id/navigation_item_MyMusic"
+            android:icon="@drawable/ic_music"
+            android:title="My Music"
+            android:checked="true"/>
+        <item
+            android:id="@+id/navigation_item_Hot_Music"
+            android:icon="@drawable/ic_nhachot"
+            android:title="Nhạc HOT" />
+        <item
+            android:id="@+id/navigation_item_Album"
+            android:icon="@drawable/ic_search_album"
+            android:title="Album" />
+        <item
+            android:id="@+id/navigation_item_Video_Clip"
+            android:icon="@drawable/ic_search_video"
+            android:title="Video clip" />
+        <item
+            android:id="@+id/navigation_item_Singer"
+            android:icon="@drawable/ic_search_artist"
+            android:title="Nghệ sĩ" />
+        <item
+            android:id="@+id/navigation_item_Rank"
+            android:icon="@drawable/ic_chart"
+            android:title="Bảng xếp hạng" />
+        <item
+            android:id="@+id/navigation_item_Exit"
+            android:icon="@drawable/close"
+            android:title="Đóng ứng dụng" />
+    </group>
+
+
+</menu>

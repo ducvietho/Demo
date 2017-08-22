@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.tuhocandroid.navdrawerandtablayout.Activity.SongList">
+<include layout="@layout/toolbar"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="190dp"
+        android:background="@drawable/song_image"/>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycle_songlist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>

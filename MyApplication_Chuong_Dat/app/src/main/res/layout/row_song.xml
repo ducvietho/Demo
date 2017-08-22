@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:id="@+id/textviewRanking"
+            android:layout_gravity="center"
+            android:gravity="center"/>
+
+        <LinearLayout
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:textSize="20dp"
+                android:id="@+id/textviewSongName"
+                />
+            <TextView
+                android:layout_width="300dp"
+                android:layout_height="15dp"
+                android:id="@+id/textviewSinger"
+                />
+
+
+
+    </LinearLayout>
+
+
+            <ImageButton
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:id="@+id/btn_function"
+                android:layout_marginRight="2dp"
+                android:src="@drawable/ic_down_right"
+                android:background="@android:color/transparent"
+                android:paddingTop="20dp"
+                android:paddingLeft="13dp">
+
+            </ImageButton>
+
+
+
+
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/black_trans80"/>
+
+</LinearLayout>
+    </LinearLayout>
